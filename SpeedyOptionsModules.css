@@ -1,0 +1,66 @@
+@font-face {
+    font-family: PlutoSansDPDExtraLight;
+    src: url(fonts/OTF/PlutoSansDPDExtraLight.otf);
+}
+@font-face {
+    font-family: PlutoSansDPDLight;
+    src: url(fonts/OTF/PlutoSansDPDLight.otf);
+}
+@font-face {
+    font-family: PlutoSansDPDRegular;
+    src: url(fonts/OTF/PlutoSansDPDRegular.otf);
+}
+@font-face {
+    font-family: PlutoSansDPDThin;
+    src: url(fonts/OTF/PlutoSansDPDThin.otf);
+}
+@font-face {
+    font-family: Code128;
+    src: url(fonts/OTF/Code128.otf);
+}
+
+body { font: 12px PlutoSansDPDLight, Arial, Helvetica; color: #414042; }
+   
+/*
+#dc0032 - DPD Red
+#a90034 - Dark Red
+#414042 - DPD Black
+#cac4be - Warm Grey
+#808285 - Mid Grey
+#e6e7e8 - Light Grey
+*/
+
+.aDocumentation { color: #dc0032; }
+.aAnchor { font-weight: bold; }   
+.tdCode { height: auto; font: 13px Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; color: #444444; background-color: #FAFAFA; border: 1px solid #E9E9E9; padding: 10px; }
+.preCode { margin: 0px; }
+.preCodeMain { font: 13px Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; color: #444444; background-color: #FAFAFA; border: 1px solid #E9E9E9; padding: 10px; margin-bottom: 50px; }
+.preCodeAnchor { color: #dc0032; text-decoration: underline; }
+.ulExampleLinks li { margin-bottom: 5px; }
+.tableExamples { width: 100%; table-layout: fixed; margin-bottom: 50px; }
+.column1 { width: 60%; }   
+.column2 { width: 40%; }
+
+.textBold { font-weight: bold; }
+
+/* dl{ margin: auto;} */
+dd{ margin-bottom: 40px; }
+
+li{ margin-bottom: 35px; }
+
+.tableOptions { width: 100%; }
+
+.notice{
+    padding-left: 25px;
+    color: #dc0032;
+}
+
+
+.smallDescription{ padding-left: 10px; }
+
+.options{ padding-left: 25px; }
+
+#hp{ float: right; margin: 0 0 0 15px; }
+
+
+
